@@ -15,11 +15,11 @@
   Content
   -----------------------------------------------------------------------------
 
-  README        :  This file.
-  INSTALL       : Installation guide
-  ReleaseNotes  :  Revision History and notes.
-  src           :  Source files.
-  include       :  Include files.
+  - README        :  This file.
+  - INSTALL       : Installation guide
+  - ReleaseNotes  :  Revision History and notes.
+  - src           :  Source files.
+  - include       :  Include files.
 
 
   System Requirements
@@ -35,21 +35,20 @@
 
   Syntax
   -----------------------------------------------------------------------------
-  wavedump [ConfigFile]
-  Default config file is "/etc/wavedump/WaveDumpConfig.txt"
-  or "/etc/wavedump/WaveDumpConfig_X742.txt" for X742 boards [THIS ONE USED IN THIS REPO!]
-  or "/etc/wavedump/WaveDumpConfig_X740.txt" for X740 boards.
+  - wavedump [ConfigFile]
+  - Default config file is "/etc/wavedump/WaveDumpConfig.txt"
+  - or "/etc/wavedump/WaveDumpConfig_X742.txt" for X742 boards [THIS ONE USED IN THIS REPO!]
+  - or "/etc/wavedump/WaveDumpConfig_X740.txt" for X740 boards.
 
   Keyword list and syntax for the configuration file:
   -----------------------------------------------------------------------------
-  For configuration file syntax please refer to the Wavedump Manual.
+  - For configuration file syntax please refer to the Wavedump Manual.
 
   -----------------------------------------------------------------------------
   
   How to get support
   -----------------------------------------------------------------------------
-  For technical support, go to https://www.caen.it/mycaen/support/ (login and
-  MyCAEN+ account required).
+  - For technical support, go to https://www.caen.it/mycaen/support/ (login and MyCAEN+ account required).
 
   -----------------------------------------------------------------------------
 
