@@ -53,6 +53,7 @@
 
   Test with pulses
   -----------------------------------------------------------------------------
+  - See picture in Wiki
   - Follow requirements list and installation guide
   - 100-ns width, 200 mV Vpp and <450 Hz rate lemo-mcx (50 Ohm exit impedance) from pulser to ch0 TRG in V1742
   - pulse TTL TRG OUT in TRG IN LEMO input connector in the V1742 front panel
