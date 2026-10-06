@@ -45,9 +45,18 @@
 
   -----------------------------------------------------------------------------
   
-  
-    How to get support
+  How to get support
   -----------------------------------------------------------------------------
   For technical support, go to https://www.caen.it/mycaen/support/ (login and
   MyCAEN+ account required).
 
+  -----------------------------------------------------------------------------
+
+  Tests
+  -----------------------------------------------------------------------------
+  100-ns width and <450 Hz rate TTL BNC (50 Ohm exit impedance) from pulser to TRG IN LEMO input connector in the V1742 front panel
+  run: wavedump
+  then "s" (start), and "W" (continuos writing enabled), then "s" to stop acquisition and "q" to exit
+  Using V1718 connected with USB to PC, and put in slot 1 of VME crate, with V1742 in one of the first 16 slots
+
+  
