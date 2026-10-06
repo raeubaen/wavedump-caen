@@ -63,3 +63,4 @@
   - run: wavedump
   - then "s" (start), and "W" (continuos writing enabled), then "s" to stop acquisition and "q" to exit
   - Using V1718 connected with USB to PC, and put in slot 1 of VME crate, with V1742 in one of the first 16 slots
+  - Unpack: ```python3 unpack_v1742.py . test.root```, in a environment with numpy and uproot (cvmfs for example)
