@@ -45,18 +45,20 @@
   - For configuration file syntax please refer to the Wavedump Manual.
 
   -----------------------------------------------------------------------------
-  
   How to get support
   -----------------------------------------------------------------------------
   - For technical support, go to https://www.caen.it/mycaen/support/ (login and MyCAEN+ account required).
 
   -----------------------------------------------------------------------------
 
-  Tests
+  Test with pulses
   -----------------------------------------------------------------------------
-  - 100-ns width and <450 Hz rate TTL BNC (50 Ohm exit impedance) from pulser to TRG IN LEMO input connector in the V1742 front panel
+  - Follow requirements list and installation guide
+  - 100-ns width, 200 mV Vpp and <450 Hz rate lemo-mcx (50 Ohm exit impedance) from pulser to ch0 TRG in V1742
+  - pulse TTL TRG OUT in TRG IN LEMO input connector in the V1742 front panel
+  - trigger/output delay to 0 in the pulser (simulates realistic situations)
+  - post-trigger size of acquisition window at 0% (already setup in the pushed config), can be tuned from 0% to 100%
+  - Front panel of V1742 set to TTL (already setup in the pushed config), MAKE SURE the green TTL led is switched on on V1742!
   - run: wavedump
   - then "s" (start), and "W" (continuos writing enabled), then "s" to stop acquisition and "q" to exit
   - Using V1718 connected with USB to PC, and put in slot 1 of VME crate, with V1742 in one of the first 16 slots
-
-  
