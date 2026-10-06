@@ -16,6 +16,7 @@
   -----------------------------------------------------------------------------
 
   README        :  This file.
+  INSTALL       : Installation guide
   ReleaseNotes  :  Revision History and notes.
   src           :  Source files.
   include       :  Include files.
