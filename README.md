@@ -64,3 +64,5 @@
   - then "s" (start), and "W" (continuos writing enabled), then "s" to stop acquisition and "q" to exit
   - Using V1718 connected with USB to PC, and put in slot 1 of VME crate, with V1742 in one of the first 16 slots
   - Unpack: ```python3 unpack_v1742.py . test.root```, in a environment with numpy and uproot (cvmfs for example)
+  - To derive the StartCell corrections, à là https://arxiv.org/pdf/2607.28477 Sec. 5.2 or : ```events->Draw("waveform[9]:(Iteration$ + start_cell[16])%1024>>(1024, -0.5, 1023.5, 1000, 2000, 3000)", "", "prof")```
+  - To plot a single event/channel combination: ```events->Draw("waveform[0]:Iteration$", "Entry$==0", "pl")```
